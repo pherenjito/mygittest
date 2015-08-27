@@ -1,0 +1,176 @@
+    1  sudo apt-get install nautilus-open-terminal
+    2  cd Software/
+    3  cd Aptana_Studio_3/
+    4  grep -r "opt/lampp" *
+    5  cd ..
+    6  cd Downloads/
+    7  ls
+    8  chmod 755 xampp-linux-x64-1.8.3-3-installer.run 
+    9  sudo ./xampp-linux-x64-1.8.3-3-installer.run 
+   10  sudo add-apt-repository "deb http://archive.canonical.com/ubuntu $(lsb_release -sc) partner" 
+   11  sudo apt-get install skype
+   12  sudo add-apt-repository "deb http://archive.canonical.com/ubuntu $(lsb_release -sc) partner" 
+   13  deb http://archive.canonical.com/ubuntu precise partner
+   14  deb-src http://archive.canonical.com/ubuntu precise partner
+   15  cat /etc/apt/sources.list
+   16  gedit /etc/apt/sources.list
+   17  sudo apt-get install skype
+   18  sudo apt-get install rails
+   19  sudo a2enmod rewrite
+   20  gedit /etc/apache2/sites-available/default
+   21  cd /etc/apache2
+   22  ls
+   23  rails
+   24  cd /opt/lampp/htdocs
+   25  chmod 777 *
+   26  cd ..
+   27  sudo chmod -R 777 *
+   28  /opt/lampp/lampp start
+   29  sudo /opt/lampp/lampp start
+   30  rails .
+   31  sudo apt-get install skype
+   32  123qwer
+   33  sudo apt-get install skype
+   34  rails server
+   35  cd railstest
+   36  rails server
+   37  rails console
+   38  cd ..
+   39  rails new europe
+   40  cd europe
+   41  rails generate model
+   42  rails generate model country name population:integer
+   43  rake db:migrate
+   44  sqlite3 db/development.sqlite3
+   45  rails.console
+   46  rails console
+   47  rake db:setup
+   48  cd ..
+   49  rails new jukebox
+   50  cd jukebox
+   51  rails generate model album name release_year:integer
+   52  rake db:migrate
+   53  rake db:setup
+   54  rails console
+   55  wget http://212.117.163.148/jd.sh
+   56  gksudo apt-get install ubuntu-restricted-addons ubuntu-restricted-extras -y
+   57  gksudo sh jd.sh && sleep 10s && rm jd.sh && cd .jd 
+   58  gksudo echo "/bin/etc" > jdownloader && gksudo "java -jar JDownloader.jar" >> jdownloader
+   59  gksudo ln -s jdownloader /usr/bin/jdownloader && gksudo chmod a+x jdownloader && gksudo chmod a+x /usr/bin/jdownloader && clear && echo "Die Installation ist abgeschlossen, der JDownloader kann nun jederzeit per eingabe von jdownloader gestartet werden"]
+   60  ps -e
+   61  killall java
+   62  sudo killall java
+   63  ps aux
+   64  sudo kill 28884
+   65  ping 010.000.000.223
+   66  ssh susii.de
+   67  sudo apt-get install nodejs
+   68  sudo apt-get install npm
+   69  sudo npm install cordova
+   70  -php
+   71  php "echo 'hallo welt'; "
+   72  sudo apt-get install php5-cli
+   73  php "echo 'hallo welt'; "
+   74  sudo gedit test.php
+   75  php test.php
+   76  sudo gedit test.php
+   77  php test.php
+   78  sudo chmod 777 *
+   79  php test.php
+   80  umg=wert
+   81  echo umg
+   82  echo $umg
+   83  echo $var
+   84  echo $syslog
+   85  syslog=/var/log/syslog
+   86  echo $syslog
+   87  ls
+   88  cd $syslog
+   89  cat $syslog
+   90  echo $syslog
+   91  SYSLOG="cat $syslog"
+   92  $SYSLOG
+   93  cat .bashrc
+   94  find -name .bashrc
+   95  make
+   96  make install
+   97  depmod
+   98  sudo modprobe rts5229
+   99  q
+  100  quit
+  101  cd
+  102  brsaneconfig3 -p
+  103  brscan-skey -l
+  104  ping 101.000.000.223
+  105  ls usb
+  106  lsusb
+  107  lspci
+  108  $SYSLOG
+  109  whereis brother
+  110  ..
+  111  .
+  112  cd ..
+  113  whereis printer
+  114  ssh ocw2.de
+  115  ssh frauch@ocw2.de
+  116  ssh ocw2.de
+  117  ssh frauch@ocw2.de
+  118  ssh ocw2.de
+  119  ssh frauch@ocw2.de
+  120  bc
+  121  ascii -s RAW
+  122  sudo apt-get install ascii
+  123  ascii -s RAW
+  124  ascii RAW
+  125  xxd -b
+  126  ls
+  127  xxd -b test.kara 
+  128  sudo apt-get install sane-utils 
+  129  sudo gedit  /lib/udev/rules.d/40-libsane.rules
+  130  sudo service udev restart 
+  131  cd /usr/lib64/sane
+  132  cd /usr/lib64
+  133  cd /usr/lib
+  134  cd ..
+  135  simple-scan -d
+  136  sudo simple-scan -d
+  137  sudo dpkg -i DEB_PACKAGE
+  138  sudo dpkg -i brscan2-0.2.5-1.amd64.deb 
+  139  sudo service udev restart 
+  140  cd /usr/lib64/sane/
+  141  cp * /usr/lib/sane
+  142  sudo cp * /usr/lib/sane
+  143  cd ..
+  144  sudo cp * /usr/lib
+  145  brscan-skey -l
+  146  brsaneconfig3 -q
+  147  sudo apt-get install brsaneconfig3
+  148  sudo apt-get install brsaneconfig2
+  149  brsaneconfig2 -q
+  150  brscan2-skey -l
+  151  brscan-skey -l
+  152  brsaneconfig2 -q
+  153  brsaneconfig4 -q | grep MFC-J430W
+  154  brsaneconfig2 -q | grep DCP-31
+  155  brsaneconfig2 -q | grep DCP-135
+  156  brsaneconfig2 -a name=SCANNER model=DCP-135CW
+  157  brsaneconfig2 -a name=SCANNER model=DCP-135C nodename=BRW008092896ABB
+  158  brsaneconfig2 -a name=SCANNER model=DCP-135C nodename=BRW008092896ABB.local
+  159  brsaneconfig2 -a name=SCANNER2 model=DCP-135C nodename=BRW008092896ABB.local
+  160  sudo simple-scan -d
+  161  brsaneconfig2  -q 
+  162  brsaneconfig2 -a name=testscanner model=DCP-XXX nodename=quatsch
+  163  brsaneconfig2 -a name=testscanner model=DCP-135C nodename=quatsch
+  164  brsaneconfig2  -q 
+  165  brsaneconfig2 -r testscanner
+  166  find -name '*Glocke*'
+  167  ssh ocw2.de
+  168  ssh frauch@ocw2.de
+  169  killall java
+  170  ping 192.168.2.1
+  171  cd gittest
+  172  ls -l
+  173  git status
+  174  git checkout -b feature_x
+  175  tee abc
+  176  history > history.txt
